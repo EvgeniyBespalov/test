@@ -2,7 +2,7 @@
 #нужно определить по этой транзакции  - имеет ли она отношение к наворованным деньгам
 
 
-require_relative '/home/action/.rvm/gems/ruby-2.1.10/gems/blockchain-3.0.1/lib/blockchain/blockexplorer'
+require_relative 'blockexplorer'
 
 class BlockchainOperation
   attr_reader:block
